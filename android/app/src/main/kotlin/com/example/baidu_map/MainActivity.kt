@@ -13,7 +13,7 @@ class MainActivity: FlutterActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        
         SDKInitializer.setAgreePrivacy(applicationContext, true)
         SDKInitializer.initialize(applicationContext)
 
